@@ -1,3 +1,8 @@
+from decimal import Clamped
+
+
+#CLASE 29/09/2022
+
 #Tipos de datos y variables
 
 #Numéricos
