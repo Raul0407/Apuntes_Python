@@ -1,4 +1,5 @@
 from decimal import Clamped
+from re import A
 
 
 #CLASE 29/09/2022
@@ -25,3 +26,13 @@ print("Buenos días", (nombre), "Tu edad es", (edad))
 nombre = input("Dime tu nombre:\n ")
 edad = input("Dime tu edad:\n ")
 print("Buenos días", (nombre), "tu edad es", (edad))
+
+#Bucle while
+
+i = 0
+bandera = True
+while (bandera == True):
+    print("No has esto nunca", i)
+    i = i+1
+    if (i==30000):
+        bandera = False
